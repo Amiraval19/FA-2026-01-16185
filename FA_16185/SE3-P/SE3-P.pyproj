@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>11d53ae9-6fe7-4b41-b35c-bf8f342271cb</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ejer1.py</StartupFile>
+    <StartupFile>ejer2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>SE3-P</Name>
     <RootNamespace>SE3-P</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
