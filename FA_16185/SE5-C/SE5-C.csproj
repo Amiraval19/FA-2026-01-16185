@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1D018D0-AF25-429B-BA5A-65418625FBF6}</ProjectGuid>
+    <ProjectGuid>{A24DBEDF-C7C8-4036-A5AF-9AAA44BA92CD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SE3_C</RootNamespace>
-    <AssemblyName>SE3-C</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>SE5_C</RootNamespace>
+    <AssemblyName>SE5-C</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>SE3_C.ejer5</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,12 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ejer1.cs" />
-    <Compile Include="ejer2.cs" />
-    <Compile Include="ejer3.cs" />
-    <Compile Include="ejer4.cs" />
-    <Compile Include="ejer5.cs" />
-    <Compile Include="ejer6.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
